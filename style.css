@@ -1,0 +1,72 @@
+/* 1. Bootstrap theme overrides (font + brand green) */
+:root {
+  --bs-body-font-family: "Figtree", sans-serif;
+  --bs-success: #557a68;
+  --bs-success-rgb: 85, 122, 104;
+}
+
+.btn-success {
+  --bs-btn-bg: #557a68;
+  --bs-btn-border-color: #557a68;
+  --bs-btn-hover-bg: #456555;
+  --bs-btn-hover-border-color: #456555;
+  --bs-btn-active-bg: #3b5849;
+  --bs-btn-active-border-color: #3b5849;
+  --bs-btn-disabled-bg: #557a68;
+  --bs-btn-disabled-border-color: #557a68;
+}
+
+/* 2. Things Bootstrap has no utility for */
+.bg-forest {
+  background-color: #0b563b;
+}
+
+.hero {
+  min-height: 725px;
+  background:
+    linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)),
+    url('./assests/background.img.webp') center / cover no-repeat;
+}
+
+.search-box {
+  max-width: 15rem;
+}
+
+.step-num {
+  width: 2rem;
+  height: 2rem;
+}
+
+.tracking {
+  letter-spacing: 0.2em;
+}
+
+.media-logos img {
+  height: 2rem;
+  width: auto;
+}
+
+/* Made with respect - auto-scrolling logo slider */
+.made-swiper {
+  padding: 0 0 8px;
+  overflow: hidden;
+}
+
+.made-swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+  /* constant speed */
+}
+
+.made-swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+}
+
+.made-swiper .swiper-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  /* every logo gets the same box */
+}
