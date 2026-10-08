@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Switcher - Sustainable Fashion</title>
+  <link rel="icon" href="./assests/logo.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-xxl bg-white">
+    <div class="container-fluid px-4 gap-3">
+      <a class="navbar-brand me-xxl-3" href="#">
+        <img src="./assests/switcherlogo.webp" alt="Switcher Logo" width="140" height="25" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse gap-xxl-3" id="navbarNav">
+        <ul class="navbar-nav align-items-xxl-center flex-xxl-nowrap">
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Ladies</a></li>
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Men</a></li>
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Children</a></li>
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Sale</a></li>
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Swiss Vision</a></li>
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Geelee</a></li>
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Made with Respect</a></li>
+          <li class="nav-item"><a class="nav-link px-2 text-nowrap" href="#">Stores</a></li>
+        </ul>
+
+        <div
+          class="search-box w-100 d-flex align-items-center bg-light border rounded-pill px-3 py-2 my-3 my-xxl-0 ms-xxl-auto">
+          <i class="fa-solid fa-magnifying-glass me-2"></i>
+          <input type="text" class="form-control border-0 bg-transparent shadow-none p-0" placeholder="Search"
+            aria-label="Search" />
+        </div>
+
+        <div class="border bg-white px-3 py-2 text-nowrap">
+          <a href="#" class="text-decoration-none text-dark d-flex align-items-center gap-2">
+            <img src="./assests/images.png" alt="" width="30" height="20" />
+            <span>EN</span>
+            <i class="fa-solid fa-chevron-right small ms-2"></i>
+          </a>
+        </div>
+
+        <div class="d-flex gap-4 mt-3 mt-xxl-0 ms-xxl-2">
+          <a href="#" class="text-dark fs-4" aria-label="Account"><i class="fa-regular fa-user"></i></a>
+          <a href="#" class="text-dark fs-4" aria-label="Cart"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero d-flex align-items-center text-center text-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 pb-5 mb-xxl-5">
+          <h1 class="display-5 mb-3">Late Summer Essentials.</h1>
+          <p class="fs-5 mb-4">Cool during the day, warm in the evening.</p>
+          <div class="row justify-content-center g-3">
+            <div class="col-auto"><a href="#" class="btn btn-success btn-lg rounded-pill px-5">Men</a></div>
+            <div class="col-auto"><a href="#" class="btn btn-success btn-lg rounded-pill px-5">Women</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <section class="bg-forest text-white">
+    <div class="container-fluid">
+      <div class="row text-center py-3 g-2">
+        <div class="col-12 col-md-4">100% MADE WITH RESPECT</div>
+        <div class="col-12 col-md-4 fw-bold">Free shipping on orders of 125 CHF or more</div>
+        <div class="col-12 col-md-4">30 days right of return</div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- BESTSELLING -->
+    <section class="container-fluid pt-5 pb-4 px-4">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2 class="mb-2">Bestselling products</h2>
+          <p class="m-0">These products are particularly popular</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="position-relative bg-light">
+            <img src="./assests/card 1" class="img-fluid w-100" alt="Classic T-Shirt" loading="lazy" />
+            <span
+              class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">Switcher Classic T-Shirt Bob 2001 – oversize 100% cotton</h3>
+            <div class="text-warning" aria-label="4 out of 5 stars">★ ★ ★ ★ ☆ <span class="text-dark">(91)</span></div>
+            <p class="text-success mb-0">CHF 24.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="position-relative bg-light">
+            <img src="./assests/card.22" class="img-fluid w-100" alt="Organic T-Shirt" loading="lazy" />
+            <div class="position-absolute top-0 start-0 m-3 d-flex gap-2">
+              <span class="badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">New</span>
+              <span class="badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+            </div>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">Pablo Unisex Organic T-Shirt - 2002</h3>
+            <div class="text-warning" aria-label="4 out of 5 stars">★ ★ ★ ★ ☆ <span class="text-dark">(57)</span></div>
+            <p class="text-success mb-0">CHF 19.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="position-relative bg-light">
+            <img src="./assests/card.3" class="img-fluid w-100" alt="Ladies Jacket" loading="lazy" />
+            <div class="position-absolute top-0 start-0 m-3 d-flex gap-2">
+              <span class="badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">New</span>
+              <span class="badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+            </div>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">Stockholm Switcher ladies hardshell jacket - waterproof 100% PFC FREE</h3>
+            <div class="text-warning" aria-label="5 out of 5 stars">★ ★ ★ ★ ★ <span class="text-dark">(12)</span></div>
+            <p class="text-success mb-0">CHF 89.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="position-relative bg-light">
+            <img src="./assests/card.4" class="img-fluid w-100" alt="Ladies T-Shirt" loading="lazy" />
+            <span
+              class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">Ladies' T-shirt Lady Gaia made from organic cotton</h3>
+            <div class="text-warning" aria-label="4 out of 5 stars">★ ★ ★ ★ ☆ <span class="text-dark">(16)</span></div>
+            <p class="text-success mb-0">CHF 25.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRENDING CATEGORIES -->
+    <section class="container-fluid py-4 px-4">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2 class="mb-1">Trending Categories</h2>
+          <p class="m-0">These categories are currently in vogue.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="ratio ratio-4x3 bg-light">
+            <img src="./assests/image.11" alt="Geelee by Switcher" class="object-fit-cover" loading="lazy" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="ratio ratio-4x3 bg-light">
+            <img src="./assests/made/Men_T-shirt-2001-Bob_Bundle-_42158-5-grey.jpg" alt="Multipacks for Men"
+              class="object-fit-cover" loading="lazy" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="ratio ratio-4x3 bg-light">
+            <img src="./assests/made/Banner_New_arrivals_2026.jpg" alt="New Arrivals" class="object-fit-cover"
+              loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DAILY ESSENTIALS -->
+    <section class="container-fluid pt-4 pb-5 px-4">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2 class="mb-1">Daily essentials</h2>
+          <p class="m-0">These products are indispensable everyday companions</p>
+        </div>
+      </div>
+
+      <div class="row g-3 g-md-5 mb-4">
+        <div class="col-auto"><a href="#"
+            class="fs-5 border-bottom border-4 border-dark text-decoration-none text-body-secondary">Ladies</a></div>
+        <div class="col-auto"><a href="#"
+            class="fs-5 border-bottom border-4 border-dark text-decoration-none text-body-secondary">Men</a></div>
+        <div class="col-auto"><a href="#"
+            class="fs-5 border-bottom border-4 border-dark text-decoration-none text-body-secondary">Children</a></div>
+      </div>
+
+      <div class="row g-3 mb-4">
+        <div class="col-auto"><button class="btn btn-success rounded-3">Bestselling women</button></div>
+        <div class="col-auto"><button class="btn btn-light rounded-3">New Arrivals Women</button></div>
+        <div class="col-auto"><button class="btn btn-light rounded-3">Multipacks ladies</button></div>
+        <div class="col-auto"><button class="btn btn-light rounded-3">Sale women</button></div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img src="./assests/fw-1" class="img-fluid w-100" alt="Ladies' T-shirt Lady Gaia" loading="lazy" />
+            <span
+              class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">Ladies' T-shirt Lady Gaia made from organic cotton</h3>
+            <div class="text-warning" aria-label="4 out of 5 stars">★ ★ ★ ★ ☆ <span class="text-dark">(16)</span></div>
+            <p class="text-success mb-0">CHF 21.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img src="./assests/fw-2" class="img-fluid w-100" alt="Stacy Stretch Piqué Polo Shirt" loading="lazy" />
+            <span
+              class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">4030 - Stacy Stretch Piqué Polo Shirt for Women</h3>
+            <div class="text-warning" aria-label="4 out of 5 stars">★ ★ ★ ★ ☆ <span class="text-dark">(9)</span></div>
+            <p class="text-success mb-0">CHF 44.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img src="./assests/card.3" class="img-fluid w-100" alt="Stretch ladies jacket Mia" loading="lazy" />
+            <span
+              class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">Stretch ladies jacket Mia</h3>
+            <div class="text-warning" aria-label="4 out of 5 stars">★ ★ ★ ★ ☆ <span class="text-dark">(17)</span></div>
+            <p class="text-success mb-0">CHF 59.00</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img src="./assests/fw-4" class="img-fluid w-100" alt="Stretch long sleeve T-shirt Liliane"
+              loading="lazy" />
+            <div class="position-absolute top-0 start-0 m-3 d-flex gap-2">
+              <span class="badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">New</span>
+              <span class="badge bg-warning text-dark fs-6 px-3 py-2 rounded-3">Bestsellers</span>
+            </div>
+          </div>
+          <div class="pt-4">
+            <h3 class="fs-6 mb-1">Stretch long sleeve T-shirt Liliane</h3>
+            <div class="text-warning" aria-label="4 out of 5 stars">★ ★ ★ ★ ☆ <span class="text-dark">(20)</span></div>
+            <p class="text-success mb-0">CHF 39.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SWITCHER FRIENDS -->
+    <section class="container-fluid py-5 px-4">
+      <div class="row g-5">
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="fs-2 fw-bold mb-3">
+                Switcher
+                <span class="bg-success text-white text-uppercase rounded-2 px-3 py-1">Friends</span>
+              </h2>
+              <p class="fs-2 fw-semibold mb-3">
+                Become a
+                <strong class="text-success fst-italic fw-semibold">Switcher Friend</strong>
+              </p>
+              <p class="mb-4">
+                As a Switcher Friend, you’ll be rewarded for every purchase. You’ll earn Friends
+                Points that you can redeem for gift cards—the more you earn, the more you save.
+                And by joining us, you’ll also be supporting a worthy cause.
+              </p>
+              <h3 class="fs-4 fw-semibold mb-3">Here's how it works</h3>
+            </div>
+          </div>
+
+          <div class="row align-items-center g-3 mb-2">
+            <div class="col-auto">
+              <span
+                class="step-num d-flex align-items-center justify-content-center rounded-circle bg-success text-white">1</span>
+            </div>
+            <div class="col">
+              <p class="m-0">For every CHF you spend, you earn 2 Friends points</p>
+            </div>
+          </div>
+          <div class="row align-items-center g-3 mb-2">
+            <div class="col-auto">
+              <span
+                class="step-num d-flex align-items-center justify-content-center rounded-circle bg-success text-white">2</span>
+            </div>
+            <div class="col">
+              <p class="m-0">There are more ways to earn points in the program</p>
+            </div>
+          </div>
+          <div class="row align-items-center g-3 mb-2">
+            <div class="col-auto">
+              <span
+                class="step-num d-flex align-items-center justify-content-center rounded-circle bg-success text-white">3</span>
+            </div>
+            <div class="col">
+              <p class="m-0">Redeem as a gift certificate when placing an order (500 points or more)</p>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12">
+              <h3 class="fs-4 fw-semibold mb-4">Become a Friend and get a benefit on your first order:</h3>
+            </div>
+          </div>
+
+          <div class="row g-5">
+            <div class="col-12">
+              <p class="fw-bold small text-uppercase text-center text-success tracking mb-3">Via newsletter</p>
+              <a href="#" class="btn btn-success btn-lg rounded-pill fw-bold w-100">Become a Friend &amp; Get a 10%
+                Coupon</a>
+              <ul class="mt-4 mb-0">
+                <li class="mb-2">News and Exclusive Offers</li>
+                <li class="mb-2">10% welcome coupon</li>
+              </ul>
+            </div>
+            <div class="col-12">
+              <p class="fw-bold small text-uppercase text-center text-success tracking mb-3">Via WhatsApp</p>
+              <a href="#" class="btn btn-success btn-lg rounded-pill fw-bold w-100">Become a Friend &amp; Get 20%
+                Coupon</a>
+              <ul class="mt-4 mb-0">
+                <li class="mb-2"><strong>All newsletter benefits included</strong></li>
+                <li class="mb-2">Exclusive giveaways, only on WhatsApp</li>
+                <li class="mb-2">Special discounts and surprises</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-12">
+              <p class="small text-center text-body-secondary mb-0">
+                Both sign-ups are free and can be canceled at any time. The welcome voucher is for
+                new customers only and cannot be combined with other offers.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <img src="./assests/made/2167_Helena_Lady_Gaia_3.jpg" alt="Woman wearing a Lady Gaia organic cotton T-shirt"
+            width="592" height="740" class="img-fluid h-auto" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SUSTAINABLE CLOTHING -->
+    <section class="container-fluid pt-4 pb-5 px-4">
+      <div class="row gx-5 gy-5">
+        <div class="col-12 col-md-6">
+          <div class="row gy-5">
+            <div class="col-12">
+              <h3 class="fs-5 fw-bold">Sustainable clothing since 1981</h3>
+              <p class="m-0">
+                At Switcher, we believe that the solution to more sustainable fashion lies not
+                only in the use of ecological, sustainably produced, recycled fabrics, but also in
+                the longevity of the final product.
+              </p>
+            </div>
+            <div class="col-12">
+              <h3 class="fs-5 fw-bold">Short distances</h3>
+              <p class="m-0">
+                Everything in one place: from the yarn to the finished shirt, the entire
+                production process takes place within a radius of 20 kilometers. This saves CO₂
+                and ensures full transparency.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row gy-5">
+            <div class="col-12">
+              <h3 class="fs-5 fw-bold">Sustainable</h3>
+              <p class="m-0">
+                We rely on responsibly grown raw materials and long-lasting quality. Every item is
+                made to last - for you and the planet.
+              </p>
+            </div>
+            <div class="col-12">
+              <h3 class="fs-5 fw-bold">Fairly produced</h3>
+              <p class="m-0">
+                Our textiles are produced under ethical conditions - with fair wages, safe
+                workplaces and short transportation routes. This is how we reduce emissions right
+                from the start.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section class="media-logos container-fluid py-5 px-3 px-md-5">
+      <div class="row mb-5">
+        <div class="col-12">
+          <h2 class="fs-2 fw-normal text-center m-0">Switcher in the media</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-items-center g-5 mb-4">
+        <div class="col-auto"><a href="#"><img src="./assests/media/20090202163314_Logo_Tagesanzeiger.svg"
+              alt="Tages-Anzeiger" loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/Logo_Aargauer_Zeitung_svg.png"
+              alt="Aargauer Zeitung" loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/Logo_Der_Bund.svg" alt="Der Bund"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/20min-logo-light-mode.jpg" alt="20 Minuten"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/24-heures-switzerland-logo.png" alt="24 heures"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/le_matin_60b135d9-7a23-49f0-91e0-4aa2e2e43771.png"
+              alt="Le Matin Dimanche" loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/Bilanz_Switcher.jpg" alt="Bilanz"
+              loading="lazy" /></a></div>
+      </div>
+
+      <div class="row justify-content-center align-items-center g-5 mb-4">
+        <div class="col-auto"><a href="#"><img src="./assests/media/Blick_logo_svg.png" alt="Blick"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/handelszeitung_Switcher.jpg" alt="Handelszeitung"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/Logo_item_1.png" alt="Le Nouvelliste"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/images_2.png" alt="Berner Zeitung BZ"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/telez_dec2ddde-2c1e-45bc-b23f-8540de366836.jpg"
+              alt="Telez" loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/Canal-Logo.png" alt="Canal+" loading="lazy" /></a>
+        </div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/POST_Yellow.png" alt="Post Yellow"
+              loading="lazy" /></a></div>
+      </div>
+
+      <div class="row justify-content-center align-items-center g-5">
+        <div class="col-auto"><a href="#"><img src="./assests/media/Logotg.jpg" alt="Tribune de Genève"
+              loading="lazy" /></a></div>
+        <div class="col-auto"><a href="#"><img src="./assests/media/images.png" alt="lematin.ch" loading="lazy" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOUNT FORM -->
+    <section class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <form>
+            <div class="row g-3">
+              <div class="col-12">
+                <h2 class="fs-2 fw-bold text-center mb-2">Get up to 20% off</h2>
+                <p class="fs-5 text-center m-0">
+                  on your first order
+                  <br />
+                  Watch out: you can only choose once
+                </p>
+              </div>
+
+              <div class="col-12">
+                <p class="fw-bold mb-2">Choose your discount level:</p>
+                <p class="fw-bold mb-1">10% (from a purchase value of CHF 90)</p>
+                <p class="fw-bold m-0">20% (from a purchase value of CHF 125)</p>
+              </div>
+
+              <div class="col-12">
+                <input class="form-control form-control-lg" type="text" placeholder="First name"
+                  aria-label="First name" />
+              </div>
+              <div class="col-12">
+                <input class="form-control form-control-lg" type="email" placeholder="Your e-mail" aria-label="Email" />
+              </div>
+
+              <div class="col-12">
+                <label for="gender" class="form-label fw-bold">Your gender:</label>
+                <select id="gender" class="form-select form-select-lg">
+                  <option value="">Choose your option</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label for="age" class="form-label fw-bold">Your age:</label>
+                <select id="age" class="form-select form-select-lg">
+                  <option value="">Choose your age</option>
+                  <option value="10-20">10 - 20</option>
+                  <option value="21-30">21 - 30</option>
+                  <option value="31-40">31 - 40</option>
+                  <option value="41-50">41 - 50</option>
+                  <option value="51-60">51 - 60</option>
+                  <option value="61-70">61 - 70</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <p class="small text-body-secondary mb-1">
+                  This website is protected by hCaptcha and the following rules apply.
+                </p>
+                <p class="small text-body-secondary m-0">
+                  By subscribing to the newsletter, you accept the privacy policy. Only valid for
+                  new customers.
+                </p>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-success px-5">Register and save</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- MADE WITH RESPECT (SWIPER) -->
+    <section class="container-fluid py-5 px-4">
+      <div class="row mb-5">
+        <div class="col-12">
+          <h2 class="fs-2 fw-normal text-center m-0">Made with respect</h2>
+        </div>
+      </div>
+
+      <div class="swiper made-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assests/made/fabric_loop.png" alt="Fabric loop label" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/made/Oeko_Tex_Switcher_label.jpg" alt="Oeko-Tex label" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/made/r1_1.png" alt="Recycling label" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/made/RESWitcher.jpg" alt="Switcher RE label" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/made/sedex_88156839-18b6-4830-bfb7-aec37884bc11.png" alt="Sedex label" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/made/vegan_label_a4f23858-9893-4349-8843-0ccddd366b8a.jpg" alt="Vegan label" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid pt-5 pb-4 px-4 px-lg-5">
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg">
+        <img src="./assests/made/switcher_logo_breit_cmyk_1.png" alt="Switcher" width="140" height="31"
+          loading="lazy" />
+      </div>
+
+      <div class="col-12 col-md-6 col-lg">
+        <h2 class="fs-5 fw-normal mb-4">COMPANY INFORMATION</h2>
+        <ul class="list-unstyled m-0">
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">About us</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Switcher News</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Switcher catalog</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Size chart</a></li>
+          <li><a href="#" class="link-dark text-decoration-none fw-bold">Customer reviews</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg">
+        <h2 class="fs-5 fw-normal mb-4">TERMS AND CONDITIONS</h2>
+        <ul class="list-unstyled m-0">
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Special productions</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Imprint</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">General terms and conditions</a>
+          </li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Right of withdrawal</a></li>
+          <li><a href="#" class="link-dark text-decoration-none fw-bold">Privacy</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg">
+        <h2 class="fs-5 fw-normal mb-4">HELP &amp; CONTACT</h2>
+        <ul class="list-unstyled m-0">
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Contact</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Shipping &amp; Payment</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Returns</a></li>
+          <li class="mb-3"><a href="#" class="link-dark text-decoration-none fw-bold">Dealer search</a></li>
+          <li><a href="#" class="link-dark text-decoration-none fw-bold">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg">
+        <h2 class="fs-5 fw-normal mb-4">B2B Partnership</h2>
+        <ul class="list-unstyled m-0">
+          <li><a href="#" class="link-dark text-decoration-none fw-bold">B2B Partnership</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SOCIAL ICONS -->
+  <section class="container-fluid py-5 px-4">
+    <div class="row align-items-center g-3">
+      <div class="col-12 col-md-6">
+        <div class="row g-4">
+          <div class="col-auto"><a href="#" class="text-dark fs-3" aria-label="Facebook"><i
+                class="fa-brands fa-facebook-f"></i></a></div>
+          <div class="col-auto"><a href="#" class="text-dark fs-3" aria-label="TikTok"><i
+                class="fa-brands fa-tiktok"></i></a></div>
+          <div class="col-auto"><a href="#" class="text-dark fs-3" aria-label="Pinterest"><i
+                class="fa-brands fa-pinterest-p"></i></a></div>
+          <div class="col-auto"><a href="#" class="text-dark fs-3" aria-label="Instagram"><i
+                class="fa-brands fa-instagram"></i></a></div>
+          <div class="col-auto"><a href="#" class="text-dark fs-3" aria-label="LinkedIn"><i
+                class="fa-brands fa-linkedin"></i></a></div>
+          <div class="col-auto"><a href="#" class="text-dark fs-3" aria-label="YouTube"><i
+                class="fa-brands fa-youtube"></i></a></div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 text-md-end">
+        <a href="#" class="text-black text-decoration-none">Powered by Shopify ©2026 Switcher</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // Duplicate slides so the loop always has enough to scroll
+    const wrapper = document.querySelector(".made-swiper .swiper-wrapper");
+    wrapper.innerHTML += wrapper.innerHTML;
+
+    new Swiper(".made-swiper", {
+      loop: true,
+      spaceBetween: 24,
+      speed: 3000,
+      allowTouchMove: false,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false,
+      },
+      breakpoints: {
+        0: { slidesPerView: 2 },
+        576: { slidesPerView: 3 },
+        768: { slidesPerView: 4 },
+        1200: { slidesPerView: 5 },
+      },
+    });
+  </script>
+</body>
+
+</html>
